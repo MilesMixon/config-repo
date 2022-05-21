@@ -1,3 +1,6 @@
 #Spring application name should aline with the file name, that's how spring config server finds the files the apps need
 server:
   port: 9012
+
+hello:
+  prop: Hello Spring Cloud Config
