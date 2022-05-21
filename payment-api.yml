@@ -1,0 +1,8 @@
+#Spring application name should aline with the file name, that's how spring config server finds the files the apps need
+server:
+  port: 9012
+  
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka/
