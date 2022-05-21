@@ -4,3 +4,9 @@ server:
 
 hello:
   prop: Hello Spring Cloud Config
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
